@@ -15,7 +15,7 @@ export function saveToExcel(data: any[]) {
 
     Object.keys(groupedData).forEach((key) => {
       const ws = utils.json_to_sheet(groupedData[key]);
-      utils.book_append_sheet(wb, ws, key);
+      utils.book_append_sheet(wb, ws, key.slice(0, 30));
     });
 
     writeFile(wb, "translates.xlsx");
