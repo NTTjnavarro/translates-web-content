@@ -1,5 +1,5 @@
-export * from "./getAllJson";
-export * from "./getContent";
-export * from "./findKey";
-export * from "./getFileName";
-export * from "./saveToExcel";
+export { getAllJson } from "./getAllJson";
+export { getContent } from "./getContent";
+export { findKey } from "./findKey";
+export { getFileName } from "./getFileName";
+export { saveToExcel } from "./saveToExcel";

@@ -3,7 +3,7 @@
 ## Instalación
 
 ```bash
-pnpm i
+npm i
 ```
 
 # Configuración
@@ -33,7 +33,7 @@ export const CONSTANTS = {
 Una vez configurado el archivo `src/constants/constants.ts`, podemos ejecutar el script con el siguiente comando:
 
 ```bash
-pnpm start
+npm run start
 ```
 
 ## Salida
